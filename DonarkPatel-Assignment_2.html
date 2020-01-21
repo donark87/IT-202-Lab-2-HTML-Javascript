@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="DonarkPatel-Assignment_2.js"></script>
+
+
+</head>
+<body>
+<div class="LogIn">
+    <h1>Smiles Galore Dental</h1>
+    <form action="">
+      <table class="main" border="border">
+
+      <tr>
+        <td>Name:(Required)</td>
+        <td><label> <input type="text" id="username" name="name" /> </label></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:(Required)</label></td>
+        <td><input type="password" id="password" name="password" /></td>
+      </tr>
+
+      <tr>
+          <td><label for="ID">ID:(Required)</label></td>
+          <td><input type="text" id="userId" name="id" /></td>
+      </tr>
+
+      <tr>
+          <td><label for="email">E-mail Address:(Required)</label></td>
+          <td><input type="text" id="email" name="email" /></td>
+      <tr>
+        <td><label><input type="checkbox" name="confirmation" id="myCheckBox" value="confirmation"> E-mail confirmation?</label></td>
+      </tr>
+      <tr>
+        <td>Service:</td>
+        <td><select id="service">
+              <option value="Schedule an Appointment">Schedule an Appointment</option>
+              <option value="Cancel an Appointment">Cancel an Appointment</option>
+              <option value="Search for Appointment(s)">Search for Appointment(s)</option>
+              <option value="Register/Create an Account">Register/Create an Account</option>
+            </select>
+        </td>
+      </tr>
+      </table>
+      <input type="submit" onclick="validate()" name="submitForm" value="Continue" class="submit">
+
+      
+
+      
+
+    
+</div>
+<div >
+  <br>
+  <br>
+    
+<table class="patrons" >
+    <caption>Global array of patrons</caption>
+  <th>Name</th>
+  <th>Password</th>
+  <th>ID</th>
+<tr>
+  <td>donark</td>
+  <td>1234Abcd</td>
+  <td>12345678</td>
+</tr>  
+<tr>
+  <td>dave</td>
+  <td>2345Lhgf</td>
+  <td>87654321</td>
+</tr> 
+<tr>
+    <td>smith</td>
+    <td>5678Efgh</td>
+    <td>14725836</td>
+</tr>  
+<tr>
+    <td>john</td>
+    <td>Efgh5678</td>
+    <td>63258741</td>
+</tr> 
+<tr>
+    <td>david</td>
+    <td>9101Ijkl</td>
+    <td>15995123</td>
+</tr>
+<tr>
+    <td>steve</td>
+    <td>Ijkl9101</td>
+    <td>9511596</td>
+</tr> 
+</table>
+</div>
+</form>
+
+</body>
+
+</html>
